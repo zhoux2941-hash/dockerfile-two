@@ -1,11 +1,13 @@
 # Dependencies
 node_modules/
+package-lock.json
 
 # Database
 *.db
 *.db-journal
 *.db-wal
 *.db-shm
+data/
 
 # Logs
 logs/
@@ -44,3 +46,16 @@ Thumbs.db
 # Testing
 .cache/
 test-results/
+
+# npm
+.npm
+.npmrc
+
+# Temporary files
+*.tmp
+*.bak
+*.temp
+temp/
+
+# TypeScript (if used)
+*.tsbuildinfo
